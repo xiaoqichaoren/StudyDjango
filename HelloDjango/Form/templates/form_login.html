@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Form Login</title>
+</head>
+<body>
+<form method="post" action="{% url 'form:login' %}">
+    {% csrf_token %}
+    {% for field in form %}
+        <p>{{ field.errors }}</p>
+        <p>{{ field.label_tag }}
+        {{ field }}</p>
+    {% endfor %}
+    <button type="submit">Login</button>
+</form>
+</body>
+</html>

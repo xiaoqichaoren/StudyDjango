@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block url %}
+    {% url 'response:t_login' %}
+{% endblock %}
+{% block password %}
+    <span>Password:</span><input type="password" placeholder="please input password" name="password">
+    <br>
+{% endblock %}
