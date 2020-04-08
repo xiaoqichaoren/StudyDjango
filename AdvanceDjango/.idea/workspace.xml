@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c5627a4-e71e-4fe3-b623-6ce6818b4a4c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Cache" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Cache" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Cache" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a6h4dYKBqAkP7VBzjAljMnVPos" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/fonts" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/fonts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Third" />
+      <recent name="$PROJECT_DIR$/AOP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/fonts" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.utils">
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AdvanceDjango" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Third" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Third/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AdvanceDjango" type="Python.DjangoServer" factoryName="Django server">
+      <module name="AdvanceDjango" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="AdvanceDjango.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c5627a4-e71e-4fe3-b623-6ce6818b4a4c" name="Default Changelist" comment="" />
+      <created>1586061760353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586061760353</updated>
+      <workItem from="1586061762033" duration="102000" />
+      <workItem from="1586064256387" duration="1946000" />
+      <workItem from="1586067144539" duration="219000" />
+      <workItem from="1586067414286" duration="9880000" />
+      <workItem from="1586145871571" duration="1133000" />
+      <workItem from="1586147019567" duration="12798000" />
+      <workItem from="1586179040339" duration="136000" />
+      <workItem from="1586248501089" duration="8701000" />
+      <workItem from="1586258927617" duration="5999000" />
+      <workItem from="1586318521103" duration="11465000" />
+      <workItem from="1586339920713" duration="661000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="433" y="92" width="658" height="869" key="#AdvanceDjango" timestamp="1586067110627">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="433" y="92" width="658" height="869" key="#AdvanceDjango/67.27.1853.1053@67.27.1853.1053" timestamp="1586067110627" />
+    <state x="225" y="185" width="1084" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586339213454">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="225" y="185" width="1084" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586339213454" />
+    <state x="462" y="324" width="599" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586259328232">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="462" y="324" width="599" height="406" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1586259328232" />
+    <state x="500" y="273" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586318647486">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="500" y="273" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586318647486" />
+    <state x="544" y="285" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586248890013">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="544" y="285" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1586248890013" />
+    <state width="1346" height="257" key="GridCell.Tab.0.bottom" timestamp="1586339905585">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1346" height="257" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1586339905585" />
+    <state width="1346" height="257" key="GridCell.Tab.0.center" timestamp="1586339905585">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1346" height="257" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1586339905585" />
+    <state width="1346" height="257" key="GridCell.Tab.0.left" timestamp="1586339905584">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1346" height="257" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1586339905584" />
+    <state width="1346" height="257" key="GridCell.Tab.0.right" timestamp="1586339905585">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1346" height="257" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1586339905585" />
+    <state width="273" height="606" key="HiddenNamespacesPopup" timestamp="1586339416043">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="273" height="606" key="HiddenNamespacesPopup/67.27.1853.1053@67.27.1853.1053" timestamp="1586339416043" />
+    <state x="248" y="162" key="SettingsEditor" timestamp="1586338821409">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="248" y="162" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1586338821409" />
+    <state x="605" y="411" width="375" height="257" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586253944229">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="605" y="411" width="375" height="257" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/67.27.1853.1053@67.27.1853.1053" timestamp="1586253944229" />
+    <state x="421" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1586339921703">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="421" y="354" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586339921703" />
+    <state x="430" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1586262436364">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="430" y="246" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1586262436364" />
+    <state x="492" y="409" width="540" height="235" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586249639018">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="492" y="409" width="540" height="235" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586249639018" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AdvanceDjango$utils.coverage" NAME="utils Coverage Results" MODIFIED="1586325164906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third" />
+  </component>
+</project>

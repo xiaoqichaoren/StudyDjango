@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码</title>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.1/jquery.js"></script>
+    <script type="text/javascript" src="{% static 'js/login.js' %}"></script>
+</head>
+<body>
+<form action="{% url 'third:login' %}" method="post">
+    {% csrf_token %}
+    <span>验证码：</span><input type="text" name="yanzheng">
+    <br>
+    <img src="{% url 'third:yanzheng' %}">
+    <br>
+    <button type="submit">提交</button>
+</form>
+</body>
+</html>

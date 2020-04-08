@@ -1,0 +1,19 @@
+<html>
+<haea>
+    <title>第{{ page_object.number }}页</title>
+</haea>
+<body>
+{% for people in page_object.object_list %}
+    <p>{{ people.name }}：{{ people.age }}</p>
+{% endfor %}
+{% if page_object.has_previous %}
+    <ul><a href="{% url 'third:paginator' %}?page={{ page_object.previous_page_number }}&per_page={{ per_page }}">上一页</a></ul>
+{% endif %}
+{% if page_object.has_next %}
+    <ul><a href="{% url 'third:paginator' %}?page={{ page_object.next_page_number }}&per_page={{ per_page }}">下一页</a></ul>
+{% endif %}
+
+
+第{{ page_object.number }}页，共{{ paginator.num_pages }}页
+</body>
+</html>
