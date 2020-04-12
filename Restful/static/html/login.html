@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<script src="/static/js/jquery-3.5.0.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			//登陆提交按钮
+			$("#submit").click(function () {
+				var u_name = $("#u_name").val();
+				var u_password = $("#u_password").val();
+				$.post('/Api/login/', { 'u_name': u_name, 'u_password': u_password }, function (data) {
+					console.log(data);
+				})
+			})
+
+		})
+	</script>
+</head>
+
+<body>
+	<form action="#">
+		<span>用户名:</span><input type="text" id="u_name">
+		<br>
+		<span>密码:</span><input type="password" id="u_password">
+		<input type="button" id="submit" value="登陆">
+	</form>
+
+</body>
+
+</html>

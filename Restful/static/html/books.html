@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Books</title>
+	<script src="/static/js/jquery-3.5.0.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+
+			$("#jiazai").click(function () {
+				//将JsonResponse的JSON数据渲染出来
+				$.getJSON("/Api/book/0/", function (data) {
+					console.log(data);
+					if (data['status'] === 200) {
+						var $ul = $("ul");
+						var books = data['data'];
+						for (var i = 0; i < books.length; i++) {
+							var $li = $("<li></li>");
+							$li.html(books[i]['b_name'] + books[i]['b_price']);
+							$li.appendTo($ul)
+						}
+					}
+				})
+			})
+
+			$("#添加").click(function () {
+				var b_name = $("#b_name").val();
+				var b_price = $("#b_price").val();
+				$.post('/Api/book/0/', { 'b_name': b_name, 'b_price': b_price }, function (data) {
+					console.log(data);
+					if (data['status'] == 201){
+						window.open('/static/html/books.html');
+					}
+				})
+			})
+
+			$("#delete").click(function () {
+				var b_id = $("#b_id").val();
+				$.post('/Api/book/' + b_id + '/', function (data) {
+					console.log(data);
+				})
+			})
+		})
+	</script>
+</head>
+
+<body>
+	<button id="jiazai">点击加载</button>
+	<ul></ul>
+	<form action="#">
+		<span>BookName:</span><input type="text" id="b_name">
+		<br>
+		<span>BookPrice:</span><input type="text" id="b_price">
+		<input type="button" id="添加" value="添加">
+		<br>
+		<span>BookId：</span><input type="text" id="b_id">
+		<button id="delete">删除一项</button>
+	</form>
+
+</body>
+
+</html>
